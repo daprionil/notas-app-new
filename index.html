@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="ctn-menu">
+            <div class="ctn-icon">
+                <div class="icon">
+                    <p>Las <span>Notas</span></p>
+                </div>
+            </div>
+            <button class="btn btn-responsive" id="btn-menu-responsive">Menu</button>
+            <div class="ctn-info" id="menu-page">
+                <button class="btn danger btn-close-menu-responsive" id="btn-close-menu">X</button>
+                <div class="ctn-list-menu">
+                    <nav>
+                        <ul>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <li>Inicio</li>
+                            </a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <li>Quienes Somos</li>
+                            </a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <li>Proximamente</li>
+                            </a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="ctn-form-notes">
+            <div class="ctn-form">
+                <div class="form">
+                    <div class="text-form-note">
+                        <p>Escribre una <span>Nota</span></p>
+                    </div>
+                    <form action="" id="form-note">
+                        <div class="inputs">
+                            <textarea name="description-note" id="description-note" cols="30" rows="10" placeholder="Escribe tu nota"></textarea>
+                        </div>
+                        <div class="ctn-submit">
+                            <input type="submit" class="btn submit" value="Agregar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="ctn-notes">
+                <div class="all-notes" id="box-notes"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>
